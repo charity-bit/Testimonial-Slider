@@ -39,7 +39,7 @@ html {
 .slide-img {
   width: 100%;
   margin: 0 auto;
-  padding: 40px;
+  padding: 30px;
   background-image: url(./images/pattern-bg.svg);
   background-position: center;
   background-repeat: no-repeat;
@@ -140,27 +140,26 @@ html {
   color: hsl(240, 18%, 77%);
 }
 
-@media only screen and (min-width:768px) {
-  .slide{
+@media only screen and (min-width: 768px) {
+  .slide {
     flex-direction: row;
     text-align: left;
   }
-  .slide-text{
-      background-position: 10% top;
-      background-size: 100px;
-      align-items: flex-start;
-      z-index: 1;
+  .slide-text {
+    background-position: 10% top;
+    background-size: 100px;
+    align-items: flex-start;
+    z-index: 1;
   }
-  .slide-img{
-      margin-left: -100px;
+  .slide-img {
+    margin-left: -100px;
   }
-  .slider-img img{
-      width:500px;
-
+  .slider-img img {
+    width: 500px;
   }
-  .buttons{
-      top:315px;
-      transform: translate(0);
-      left:calc(100% - 300px);
+  .buttons {
+    top: 350px;
+    transform: translate(0);
+    left: calc(100% - 350px);
   }
 }
