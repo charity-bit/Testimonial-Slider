@@ -102,7 +102,7 @@ html {
 }
 .buttons {
   position: absolute;
-  top: 315px;
+  top: 355px;
   transform: translateX(-50%);
   left: 50%;
   width: 90px;
